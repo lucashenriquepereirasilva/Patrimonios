@@ -1,15 +1,5 @@
-Nome: lucas
-Descrição: ahhaj
-Valor: 10
-Data de Aquisição: 22/12/25
-----------------------------------------
-Nome: carlos gay
-Descrição: chupa
-Valor: 23
-Data de Aquisição: 23/34/56
-----------------------------------------
-Nome: a
-Descrição: a
-Valor: a
-Data de Aquisição: a
+Nome: Escultura de Bronze"
+Descrição: Objeto de Arte
+Valor: Ano de 1900
+Data de Aquisição: 25 de junho de 2001
 ----------------------------------------
