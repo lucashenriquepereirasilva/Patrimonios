@@ -3,3 +3,8 @@ Descrição: Objeto de Arte
 Valor: Ano de 1900
 Data de Aquisição: 25 de junho de 2001
 ----------------------------------------
+Nome: operaria
+DescriÃ§Ã£o: maior
+Valor: 22
+Data de AquisiÃ§Ã£o: 25
+----------------------------------------

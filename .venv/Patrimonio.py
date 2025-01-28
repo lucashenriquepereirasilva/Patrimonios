@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QVBoxLayout, QPushButton, QMessageBox, QTextEdit
 import sys
 
-class SistemaPatrimonio(QWidget):
+class Patrimonio(QWidget):
     def __init__(self):
         super().__init__()
 
@@ -106,7 +106,7 @@ class SistemaPatrimonio(QWidget):
             return
 
         # Salvar dados no arquivo
-        with open("patrimonios.txt", "+a") as arquivo:
+        with open("patrimonios.txt", "+a" , encoding= "utf8") as arquivo:
             arquivo.write(f"Nome: {self.edit_nome.text()}\n")
             arquivo.write(f"Descrição: {self.edit_descricao.text()}\n")
             arquivo.write(f"Valor: {self.edit_valor.text()}\n")
@@ -139,7 +139,7 @@ class SistemaPatrimonio(QWidget):
         msg.exec()
 
 # Inicializar aplicação
-app = QApplication(sys.argv)
-tela = SistemaPatrimonio()
-tela.show()
-app.exec()
+# app = QApplication(sys.argv)
+# tela = Patrimonio()
+# tela.show()
+# app.exec()
